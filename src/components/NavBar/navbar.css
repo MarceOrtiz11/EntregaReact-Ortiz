@@ -11,7 +11,6 @@
 .icon-navbar{
     width: 75px;
     height: 75px;
-    margin: 0 20px;
 }
 
 .list{
@@ -66,7 +65,6 @@
 .cart{
     width: 60px;
     height: 60px;
-    margin: 20px;
 }
 
 .cart-container{
@@ -78,5 +76,5 @@
 .number-cart{
     font-size: 20px;
     font-weight: 800;
-    color: #e1e1e1;
+    color: rgb(21, 22, 22);
 }
