@@ -1,0 +1,42 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border-bottom: 2px solid black;
+}
+
+.icon-navbar{
+    width: 75px;
+    height: 75px;
+    margin: 0 20px;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    
+}
+
+.list li{
+    width: 100px;
+}
+
+.cart{
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+}
+
+.cart-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number-cart{
+    font-size: 20px;
+    font-weight: 800;
+}
