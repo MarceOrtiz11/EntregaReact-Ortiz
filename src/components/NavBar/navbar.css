@@ -1,10 +1,11 @@
 .navbar{
+    background-color: rgb(248, 231, 28);
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     height: 100px;
-    border-bottom: 2px solid black;
+    border-bottom: 4px solid black;
 }
 
 .icon-navbar{
@@ -17,11 +18,49 @@
     display: flex;
     align-items: center;
     list-style: none;
-    
 }
 
 .list li{
     width: 100px;
+    font-size: 18px;
+    color: #5a5555;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    cursor: pointer;
+    position: relative;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color
+}
+
+.list li:focus,
+.list li:hover {
+    color: #fff;
+}
+
+.list li:focus:after,
+.list li:hover:after {
+    width: 100%;
+    left: 0%;
+}
+
+.list li:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #fff;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
 }
 
 .cart{
@@ -39,4 +78,5 @@
 .number-cart{
     font-size: 20px;
     font-weight: 800;
+    color: #e1e1e1;
 }
