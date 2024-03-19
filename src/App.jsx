@@ -8,7 +8,7 @@ function App() {
 
       <NavBar />
 
-      <ItemListContainer saludo="Hola Bienvenid@!" nombre="Proyecto Ecommerce" />
+      <ItemListContainer texto="Hola Bienvenid@!" texto2="Proyecto Ecommerce" />
 
     </div>
   )

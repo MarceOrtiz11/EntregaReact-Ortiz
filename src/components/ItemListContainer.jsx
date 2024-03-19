@@ -1,9 +1,9 @@
-const ItemListContainer = ({saludo, nombre}) => {
+const ItemListContainer = ({ texto, texto2 }) => {
 
     return (
-        <div>
-            <div>{saludo}</div>
-            <div>{nombre}</div>
+        <div className="itemListContainer">
+            <div>{texto}</div>
+            <div>{texto2}</div>
         </div>
     )
 }
